@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="CoarseFineLocation">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.example.navigationdrawer.permission.POST_NOTIFICATION" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- //currency converter -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NavigationDrawer."
+        tools:targetApi="31">
+        <activity
+            android:name=".file_upload_toServer"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".firebase_crashlytics"
+            android:exported="false" />
+        <activity
+            android:name=".currency_converter1"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".socialmedia_feed"
+            android:exported="false" />
+        <activity
+            android:name=".local_audio"
+            android:exported="false" />
+        <activity
+            android:name=".local_video"
+            android:exported="false" />
+        <activity
+            android:name=".third_party_api"
+            android:exported="false" />
+        <activity
+            android:name=".social_login"
+            android:exported="false" />
+        <activity
+            android:name=".Permission"
+            android:exported="false" />
+        <activity
+            android:name=".Tourch"
+            android:exported="false" />
+        <activity
+            android:name=".Vibration"
+            android:exported="false" />
+        <activity
+            android:name=".Background_Service"
+            android:enabled="true"
+            android:exported="false" />
+        <activity
+            android:name=".pull_to_refresh"
+            android:exported="false" /> <!-- <meta-data -->
+        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+        <!-- android:value="@string/facebook_app_id" /> // facebook -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/firebase" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/purple_700" />
+
+        <activity
+            android:name=".FCMPushNotification"
+            android:exported="false" />
+        <activity
+            android:name=".SmallMediumNativeAdsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AfterInterstitialFinishedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".file_selection"
+            android:exported="false" />
+        <activity
+            android:name=".google_ads"
+            android:exported="false" />
+        <activity
+            android:name=".videoo"
+            android:exported="false" />
+        <activity
+            android:name=".video_streaming"
+            android:exported="false" />
+        <activity
+            android:name=".audio_streaming"
+            android:exported="false" />
+        <activity
+            android:name=".image_crop2"
+            android:exported="false" />
+        <activity
+            android:name=".camera"
+            android:exported="false" />
+        <activity
+            android:name=".webview"
+            android:exported="false" />
+        <activity
+            android:name=".speach_to_text"
+            android:exported="false" />
+        <activity
+            android:name=".text_to_speech"
+            android:exported="false" />
+        <activity
+            android:name=".lazy_loading"
+            android:exported="false" />
+        <activity
+            android:name=".loading_screen"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />
+
+        <activity
+            android:name=".googlemaps"
+            android:exported="false" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".footerbar2"
+            android:exported="false" />
+        <activity
+            android:name=".api"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".googlemaps" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".formcontrols"
+            android:exported="false" />
+        <activity
+            android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="false" />
+        <activity
+            android:name=".image_shape"
+            android:exported="false" />
+        <activity
+            android:name=".floating_button3"
+            android:exported="false" />
+       <activity android:name=".Tab_bar"
+           android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <!-- //signIn -->
+            <meta-data
+                android:name="com.google.android.gms.signin.client.biscopes"
+                android:value="profile email" />
+            <!-- Google Sign-In -->
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- Facebook App ID -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="92e71f28afa9daa2f09caf3aa0124af1" /> <!-- Facebook Activities -->
+        <service android:name=".MyService" />
+    </application>
+
+</manifest>

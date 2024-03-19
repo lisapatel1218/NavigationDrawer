@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228750109700",
+    "project_id": "fcmpushnotification-fc92c",
+    "storage_bucket": "fcmpushnotification-fc92c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228750109700:android:00c9bcde59d8ed1d271951",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACAv6zVE2fdmEacM2FVpw9g7wKY9sy6Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

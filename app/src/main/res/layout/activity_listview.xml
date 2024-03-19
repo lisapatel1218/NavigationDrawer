@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounsplash"
+    tools:context=".ListviewActivity">
+
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="User List"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"/>
+    <androidx.appcompat.widget.SearchView
+        android:layout_below="@id/textViewTitle"
+        android:id="@+id/searchViewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Users"
+        android:layout_marginTop="24dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchViewUsers"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+
+</RelativeLayout>

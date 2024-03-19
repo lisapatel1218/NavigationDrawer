@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_map_api_key">AIzaSyDBlfDtyfX2AbnsnJGxFIVqURyERVWMVoQ</string>
+    <string name="youtube_api_key">YOUR_YOUTUBE_API_KEY</string>
+    <string name="banner_ads1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ads1">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="small_medium_native_ads">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="toggle_torch">Toggle Torch</string>
+    <string name="log_in">Log In</string>
+    <string name="serach_place">Search Places</string>
+    <string name="demo_date">9 January, 2:41 pm</string>
+    <string name="default_numbers">100</string>
+    <string name="pressure">Pressure</string>
+    <string name="max_temp">Max Temp</string>
+    <string name="humidity">Humidity</string>
+    <string name="min_temp">Min Temp</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="temperarature_in_f">Temperarature In F</string>
+    <string name="day">Day 17 </string>
+    <string name="night">Night 9</string>
+    <string name="main_temp">16*</string>
+    <string name="feels_alike">Feels like 16*</string>
+    <string name="weacther_type">Drizzle</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="facebook_app_id">929131198809249</string>
+    <string name="fb_login_protocol_scheme">fbYOUR_FACEBOOK_APP_ID</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string-array name="shapes_array">
+
+        <item>Circle</item>
+        <item>Square</item>
+        <item>Triangle</item>
+    </string-array>
+    <string-array name="currencies">
+        <item>EUR</item>
+
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+
+    <string-array name="currencies2">
+        <item>USD</item>
+
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+    <string-array name="currencies_from" tools:ignore="DuplicateDefinition">
+        <item>EUR</item>
+
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+
+    <string-array name="currencies_to" tools:ignore="DuplicateDefinition">
+        <item>USD</item>
+
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+
+</resources>
+
+

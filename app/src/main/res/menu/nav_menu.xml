@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/splash_screen"
+            android:icon="@drawable/baseline_screen_lock_landscape_24"
+            android:title="Splash Screen" />
+        <item
+            android:id="@+id/registration_page"
+            android:icon="@drawable/baseline_app_registration_24"
+            android:title="Registration Page (from controls)" />
+
+        <item
+            android:id="@+id/form_controls"
+            android:icon="@drawable/form"
+            android:title="Form Controls UI" />
+
+        <item
+            android:id="@+id/local_database"
+            android:icon="@drawable/database"
+            android:title="Local Database"></item>
+
+        <item
+            android:id="@+id/footermenu"
+            android:icon="@drawable/footer"
+            android:title="Footer Menu"></item>
+        <item
+            android:id="@+id/floating_button"
+            android:icon="@drawable/floatingbutton"
+            android:title="Floating Button"></item>
+        <item
+            android:id="@+id/tab_bar"
+            android:icon="@drawable/baseline_tab_24"
+            android:title="Tab Bar"></item>
+        <item
+            android:id="@+id/google_maps"
+            android:icon="@drawable/googlemap"
+            android:title="Google Maps"></item>
+        <item
+            android:id="@+id/loading_screen"
+            android:icon="@drawable/loadingscreen"
+            android:title="Loading Screen"></item>
+        <item
+            android:id="@+id/push_notification"
+            android:icon="@drawable/baseline_notifications_24"
+            android:title="Push Notification Firebase"></item>
+        <item
+            android:id="@+id/ListView"
+            android:icon="@drawable/baseline_list_24"
+            android:title="List_View"></item>
+        <item
+            android:id="@+id/lazy_loading"
+            android:icon="@drawable/loading"
+            android:title="Lazy Loading"></item>
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/camera"
+            android:title="camera"></item>
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/video"
+            android:title="video"></item>
+        <item
+            android:id="@+id/google_ads"
+            android:icon="@drawable/googleads"
+            android:title="google ads"></item>
+        <item
+            android:id="@+id/video_streaming"
+            android:icon="@drawable/videostreaming"
+            android:title="video streaming"></item>
+        <item
+            android:id="@+id/audio_streaming"
+            android:icon="@drawable/audiostreaming"
+            android:title="audio streaming"></item>
+        <item
+            android:id="@+id/file_selection"
+            android:icon="@drawable/fileselection"
+            android:title="file selecion"></item>
+        <item
+            android:id="@+id/image_crop"
+            android:icon="@drawable/cropimage"
+            android:title="image crop"></item>
+        <item
+            android:id="@+id/web_view"
+            android:icon="@drawable/webview"
+            android:title="web view"></item>
+        <item
+            android:id="@+id/speech_to_text"
+            android:icon="@drawable/speechtotext"
+            android:title="speech to text"></item>
+        <item
+            android:id="@+id/text_to_speech"
+            android:icon="@drawable/texttospeech"
+            android:title="text to speech"></item>
+        <item
+            android:id="@+id/image_shape"
+            android:icon="@drawable/imageshape"
+            android:title="image shape"></item>
+        <item
+            android:id="@+id/pull_to_refresh"
+            android:icon="@drawable/pull_to_refresh"
+            android:title="pull to refresh"></item>
+        <item
+            android:id="@+id/vibration"
+            android:icon="@drawable/vibration"
+            android:title="Vibration"></item>
+        <item
+            android:id="@+id/tourch"
+            android:icon="@drawable/tourch"
+            android:title="Tourch"></item>
+        <item
+            android:id="@+id/Soc_Login"
+            android:icon="@drawable/media"
+            android:title="Social Media Login"></item>
+        <item
+            android:id="@+id/Search_autofill"
+            android:icon="@drawable/baseline_search_24"
+            android:title="Search with autofill"></item>
+        <item
+            android:id="@+id/third_party_apis"
+            android:icon="@drawable/partyapi"
+            android:title="3rd party apis"></item>
+
+        <item
+            android:id="@+id/currency_converter1"
+            android:icon="@drawable/currency_converter"
+            android:title="Currency Converterr"></item>
+
+        <item
+            android:id="@+id/local_Video_play"
+            android:icon="@drawable/audioplay"
+            android:title="local video auto play"></item>
+        <item
+            android:id="@+id/local_audio_play"
+            android:icon="@drawable/baseline_audio_file_24"
+            android:title="local audio auto play"></item>
+        <item
+            android:id="@+id/api"
+            android:icon="@drawable/api"
+            android:title="API"></item>
+
+        <item
+            android:id="@+id/firebase_crashlytics"
+            android:icon="@drawable/firebase"
+            android:title="Firebase Crashlytics"></item>
+
+
+        <item
+            android:id="@+id/socialmedia_feed"
+            android:icon="@drawable/media"
+            android:title="social media feed "></item>
+
+
+        <item
+            android:id="@+id/backgroundService"
+            android:icon="@drawable/bservice"
+            android:title="background Service"></item>
+
+        <item
+            android:id="@+id/permission"
+            android:icon="@drawable/pemission"
+            android:title="Permissions"></item>
+        <item
+            android:id="@+id/file_upload"
+            android:icon="@drawable/pemission"
+            android:title="file_uploadTo_server"></item>
+
+
+
+    </group>
+</menu>

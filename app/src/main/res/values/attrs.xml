@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference"/>
+        <attr name="drawableEndCompact" format="reference" />
+        <attr name="drawableRightCompact" format="reference" />
+
+    </declare-styleable>
+</resources>
